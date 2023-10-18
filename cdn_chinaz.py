@@ -4,7 +4,7 @@ import os
 
 from concurrent.futures import ThreadPoolExecutor
 cookies = {
-    
+    ## 替换您的cookie
 }
 
 headers = {
@@ -26,7 +26,7 @@ headers = {
 
 def retrieve_and_write_data(page, csv_filename):
     params = {
-        'cdnkey': 'DU/aYNK+yR168KYiq20+1yHS2HiXGqRX',
+        'cdnkey': 'DU/aYNK+yR168KYiq20+1yHS2HiXGqRX',   ## 替换对应的key 每个cdn 对应的key不一样
         'area': '',
         'net': '',
         'pageindex': str(page),
