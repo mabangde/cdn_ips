@@ -3,8 +3,9 @@ import csv
 import os
 
 from concurrent.futures import ThreadPoolExecutor
+
 cookies = {
-    ## 替换您的cookie
+    
 }
 
 headers = {
@@ -46,7 +47,7 @@ def retrieve_and_write_data(page, csv_filename):
     data = response.json().get('data', [])
     if not data:
         print(f"No data found on page {page}.")
-        return
+        return False
 
     # Save the data to a CSV file for this page
     with open(csv_filename, 'a', newline='') as csv_file:
@@ -64,17 +65,16 @@ def retrieve_and_write_data(page, csv_filename):
 
 def main():
     page = 1
-    max_threads = 20  # You can adjust the number of threads here
+    max_threads = 50  # You can adjust the number of threads here
     csv_filename = 'ip_data.csv'
-
-    # Check if the CSV file exists
-    write_header = not os.path.exists(csv_filename)
+    max_page = 43937  ## 最大页码数
 
     with ThreadPoolExecutor(max_threads) as executor:
-        while True:
+        if page <= max_page:
             retrieve_and_write_data(page, csv_filename)
             page += 1
 
 
 if __name__ == '__main__':
     main()
+
