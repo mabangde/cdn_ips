@@ -26,6 +26,9 @@ def query_fofa_data(query_str):
         #if data['error']:
         #    break
 
+        if data['size'] <=9999:
+            break
+
         if len(data["results"]) == 0:
             break
 
@@ -55,7 +58,7 @@ def duplicate(query_str):
             new_duplicate_ips = set()  # 存储新一轮查询中的重复IP
             print("重复IP统计:")
             for item, count in sorted_items:
-                if count >= 20:
+                if count >= 20 and item not in duplicate_ips:  # 仅处理之前未处理过的重复IP
                     print(f'{item}: {count}')
                     new_duplicate_ips.add(item)
                     new_query_str += f' && ip!="{item}"'
@@ -70,8 +73,9 @@ def duplicate(query_str):
 
     return results
 
+
 if __name__ == "__main__":
-    query_str = 'cloud_name="Tencent"'   ## 此处为查询语句
+    query_str = 'domain="alicdn.com"||host="alicdn.com"'   ## 此处为查询语句
     final_results = duplicate(query_str)
     csv_filename = 'fofa_results.csv'
     write_to_csv(final_results, csv_filename)
