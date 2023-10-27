@@ -1,0 +1,131 @@
+aws
+Aliyun
+azure
+Akamai
+google
+BaishanCloud
+Alibaba
+HuaWeiCloud
+Tencent
+sangfor
+west
+ChinaNetCenter
+Alikunlun
+Baidu
+Cloudflare
+Meicheng
+ByteDance
+JDCloud
+ksyun
+CDNetworks
+yundi
+Amazon S3
+Fastly
+Aliyundun
+Cloudfront
+Qianxin
+Taobao cdn
+Jiasule
+JD
+YUNDUN
+Westone
+fastly
+Xiaomi
+Xuanwudun
+360
+CDN77
+sina
+UD Cloud
+dianxinyun
+nelcisp
+Wangshen
+ALLELINK
+VANGEN cdn
+jvsit
+NEW1CLOUD
+meituanyun
+Xiecheng
+nsfocus
+cloudfence
+alipay
+Dunion
+eleme
+sinacloud
+LLELINK
+Weipinhui
+china Mobile cdn
+ChuangCache
+upyun
+qiniuyun
+30Wangan
+VeryCDN
+UCloud cdn
+Aryaka
+hina Mobile cdn
+China Mobile cdn
+CDNsun
+Imunify360
+Imperva Incapsula
+incapsula
+21Vianet
+qingcloud
+OnApp
+NGAA
+BunnyCDN
+263
+QUIC Cloud
+GitHub Pages
+didiyun
+SkyCDN
+Sucuri
+Limelight
+Facebook
+SwiftServe
+Highwinds
+Suning
+MANMANYUN
+Godaddy Email Service
+Wangyi
+Azion
+yfcloud
+Netlify
+Zenlayer cdn
+Wangdi
+powercdn
+ChinaCache
+GOSUN
+xycloud
+Heroku SaaS
+zscaler
+oracle
+office365
+KeyCDN
+Reflected Networks
+EdgeCast
+LambdaCDN
+G-Core Labs
+StackPath
+SendGrid Email Service
+Level3
+Clever-cloud
+Cachefly
+Tata communications
+BelugaCDN
+NGENIX
+Zendesk
+Cedexis GSLB
+Yottaa
+KINXCDN
+Medianova
+LeaseWebCDN
+Telefonica
+NYIFTW
+Emarsys
+OptimalCDN
+cubeCDN
+GoCacheP
+CDNify
+Rackspace
+WebLuker
+Internap cdn
+Orange Business
